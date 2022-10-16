@@ -14,15 +14,19 @@
 html {
   color: #FFFFFF;
   background-color: #009FE3;
-  font-size: 1em;
-  line-height: 1.4;
+  font-size: 1.2em;
+  line-height: 1.5;
+  font-family: 'Varela Round', sans-serif;
+}
+
+a{
+  color: inherit;
 }
 
 #main{
   width: 40vw;
   max-width: 800px;
   margin: auto;
-  padding: 5vh 0;
 
   display: flex;
   flex-direction: column;
@@ -31,7 +35,7 @@ html {
 #logo{
   width: 200px;
   margin: auto;
-  padding: 20px;
+  padding: 50px;
 }
 
 .text{
@@ -41,8 +45,8 @@ html {
 .link{
   margin: auto;
   padding: 50px;
-  color: inherit;
 }
+
 
 /*
  * Remove text-shadow in selection highlight:
