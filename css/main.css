@@ -12,9 +12,22 @@
    ========================================================================== */
 
 html {
-  color: #222;
+  color: #FFFFFF;
+  background-color: #009FE3;
   font-size: 1em;
   line-height: 1.4;
+}
+
+#main{
+  width: 40vw;
+  display: flex;
+  margin: auto;
+  max-width: 800px;
+  width: 40%;
+}
+
+#logo{
+  width: 200px;
 }
 
 /*
