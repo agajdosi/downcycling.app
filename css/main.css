@@ -19,10 +19,6 @@ html {
   font-family: 'Varela Round', sans-serif;
 }
 
-a{
-  color: inherit;
-}
-
 #main{
   width: 40vw;
   max-width: 800px;
@@ -34,17 +30,23 @@ a{
 
 #logo{
   width: 200px;
-  margin: auto;
-  padding: 50px;
+  margin: 50px auto 40px auto;
 }
 
 .text{
   margin: auto;
 }
 
-.link{
-  margin: auto;
-  padding: 50px;
+.links{
+  margin: 20px auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.links a{
+  color: inherit;
+  text-align: center;
 }
 
 
